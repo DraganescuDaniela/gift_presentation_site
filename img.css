@@ -1,0 +1,31 @@
+img.bb {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    margin-left: 0;
+}
+
+#img {
+    width: 400px;
+    height: 550px;
+    object-fit: cover;
+}
+
+.gallery {
+    width: 25%;
+    height: auto;
+    object-fit: cover;
+    margin-left: 0;
+}
+
+a.lk {
+    width: 95%;
+    height: 100%;
+    padding: auto;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}

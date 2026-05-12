@@ -1,0 +1,54 @@
+   
+            @media screen and (max-width: 800px) {
+                .leftcolumn {
+                    width: 70%;
+                    padding: 10%;
+                    margin: 5%;
+                }
+            }
+            
+            @media screen and (max-width: 800px) {
+                .rightcolumn {
+                    width: 70%;
+                    padding: 10%;
+                }
+            }
+            
+            @media screen and (max-width: 800px) {
+                .header .nou .email {
+                    width: 100%;
+                    padding: 3%;
+                    margin-top: 90%;
+                }
+            }
+            
+            @media screen and (max-width: 400px) {
+                f.a {
+                    float: none;
+                    width: 20%;
+                }
+            }
+            
+            @media screen and (max-width: 400px) {
+                div.email.a {
+                    display: inline-block;
+                    width: 45%;
+                    margin-right: 45%;
+                    margin-top: 40%;
+                }
+            }
+            
+            @media screen and (min-width: 300px) {
+                div.email.a {
+                    display: inline-block;
+                    width: 25%;
+                    margin-right: 45%;
+                    margin-top: 45%;
+                }
+            }
+            
+            @media screen and(max-width: 900px) {
+                imagin.img {
+                    width: 55%;
+                }
+            }

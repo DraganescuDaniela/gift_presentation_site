@@ -1,0 +1,33 @@
+@media screen and (max-width: 400px) {
+    div.email.a {
+        display: inline-block;
+        width: 45%;
+        margin-right: 45%;
+        margin-top: 25px;
+    }
+}
+
+@media screen and(max-width: 800px) {
+    p.pp {
+        width: 70%;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    div.email {
+        display: block;
+        width: 25%;
+        margin: 35%;
+        position: fixed;
+    }
+}
+
+@media screen and(max-width: 800px) {
+    img.imagin {
+        width: 75%;
+        text-align: center;
+    }
+}

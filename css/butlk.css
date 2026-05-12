@@ -1,0 +1,147 @@
+      .bara {
+          display: block;
+          margin-bottom: 1%;
+          margin-left: 80%;
+      }
+      
+      .button:hover {
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      
+      .button {
+          display: block;
+          background-color: #a0a0a0;
+          opacity: 86%;
+          border: none;
+          color: white;
+          padding: 8px 17px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 15px;
+          margin: 4px 2px;
+          /*    cursor: pointer;
+      -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s; */
+          border-radius: 20px;
+          margin-top: 15px;
+          font-size: 15px;
+      }
+      
+      .button a {
+          text-decoration: none;
+          color: black;
+      }
+      
+      .big {
+          padding: auto;
+          display: block;
+          text-align: center;
+          margin-top: -2%;
+          margin-left: -4%;
+      }
+      
+      @media scren and(max-width: 700px) {
+          .bara {
+              width: 75%;
+          }
+      }
+      
+      @media scren and(max-width: 500px) {
+          .bara {
+              width: 55%;
+          }
+      }
+      
+      @media scren and(max-width: 400px) {
+          .bara {
+              width: 25%;
+              margin: 25%;
+          }
+      }
+      
+      @media only screen and (max-width: 500px) {
+          .button {
+              display: inline-block;
+              width: 25%;
+              padding: 2px 10px;
+              margin: 3px;
+          }
+      }
+      
+      @media only screen and (max-width: 800px) {
+          .all,
+          .responsive {
+              width: 50%;
+              margin: 10px 0;
+          }
+          #image {
+              height: 240px;
+              width: 183px;
+          }
+      }
+      
+      @media only screen and (max-width: 1000px) {
+          .all,
+          .responsive {
+              width: 70%;
+          }
+          #image {
+              height: 440px;
+              width: 340px;
+          }
+      }
+      
+      @media only screen and (max-width: 600px) {
+          .all,
+          .responsive {
+              width: 50%;
+              margin: 10px 0;
+          }
+          #image {
+              height: 280px;
+              width: 190px;
+          }
+      }
+      /*         @media only screen and (max-heigh: 900px) {
+    .responsive {
+        width: 50%;
+        margin: 10px 0;
+    }
+    #img {
+        height: 600px;
+        width: 420px;
+    }
+}*/
+      
+      @media only screen and (max-width: 200px) {
+          .all,
+          .responsive {
+              width: 25%;
+              margin: 10px 0;
+          }
+          #image {
+              height: 120px;
+              width: 95px;
+          }
+      }
+      
+      @media only screen and (max-height: 200px) {
+          .all,
+          .responsive {
+              width: 25%;
+              margin: 10px 0;
+          }
+          #image {
+              height: 120px;
+              width: 95px;
+          }
+      }
+      
+      @media only screen and (max-width: 500px) {
+          .all,
+          .responsive,
+          .galery {
+              width: 100%;
+          }
+      }

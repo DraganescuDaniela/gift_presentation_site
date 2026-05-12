@@ -1,0 +1,153 @@
+div.gallery {
+    opacity: 90%;
+    border-radius: 15px;
+    display: inline-block;
+    opacity: 100%;
+    border-top: 2%;
+    position: relative;
+    object-fit: cover;
+    margin: 0.5%;
+    margin-left: 0.1%;
+}
+
+div.tot {
+    margin-left: -4%;
+}
+
+div.gallery:hover {
+    opacity: 80%;
+}
+
+div.gallery:hover div.desc {
+    opacity: 300%;
+}
+
+div.gallery img {
+    width: 290px;
+    height: 390px;
+    float: left;
+    margin-left: 25%;
+    margin-top: 3%;
+}
+
+.lk a:hover {
+    text-decoration: none;
+    color: rgb(46, 44, 44);
+}
+
+.lk {
+    text-decoration: none;
+    color: black;
+}
+
+div.desc {
+    display: block;
+    margin-top: 1%;
+    margin-left: 20%;
+    margin-bottom: -30%;
+    padding: auto;
+    padding: 1px;
+    text-align: center;
+    visibility: 0%;
+    opacity: 0;
+}
+
+div.responsive {
+    display: block;
+    padding: 0 6px;
+    float: left;
+    width: 23%;
+    margin-top: 1%;
+    margin-left: 0%;
+}
+
+img.bb {
+    display: inline-block;
+    position: relative;
+    border-radius: 15px;
+    opacity: 100%;
+    border-top: 1%;
+    position: relative;
+    object-fit: cover;
+    position: relative;
+}
+
+@media only screen and (max-width: 800px) {
+    .all,
+    .responsive {
+        width: 45%;
+        display: block;
+        margin: 10px 0;
+    }
+    #image {
+        height: 240px;
+        width: 183px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .all,
+    .responsive {
+        width: 70%;
+    }
+    #image {
+        height: 440px;
+        width: 340px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .all,
+    .responsive {
+        width: 50%;
+        margin: 10px 0;
+    }
+    #image {
+        height: 280px;
+        width: 190px;
+    }
+}
+
+
+/*         @media only screen and (max-heigh: 900px) {
+    .responsive {
+        width: 50%;
+        margin: 10px 0;
+    }
+    #img {
+        height: 600px;
+        width: 420px;
+    }
+}*/
+
+@media only screen and (max-width: 200px) {
+    .all,
+    .responsive {
+        width: 25%;
+        margin: 10px 0;
+    }
+    #image {
+        height: 120px;
+        width: 95px;
+    }
+}
+
+@media only screen and (max-height: 200px) {
+    .all,
+    .responsive {
+        width: 25%;
+        margin: 10px 0;
+    }
+    #image {
+        height: 120px;
+        width: 95px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .all,
+    .responsive,
+    .galery {
+        width: 100%;
+    }
+}

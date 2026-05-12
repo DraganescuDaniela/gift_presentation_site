@@ -1,0 +1,14 @@
+# Windows
+Thumbs.db
+Desktop.ini
+*.lnk
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+
+# Temp files
+*.tmp
+*.log

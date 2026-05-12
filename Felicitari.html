@@ -1,0 +1,1659 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Felicitări</title>
+    <link rel="icon" type="image/x-icon" href="porumbel.png">
+    <link rel="icon"  type="image/x-icon"  href="porumbel.png">
+        <link rel="stylesheet" href="css/img.css">
+        <link rel="stylesheet" href="css/navb.css">
+        <link rel="stylesheet" href="css/buton.up">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <style>
+            body {
+                font-size: 20px;
+                background-color: rgb(193, 193, 193);
+            }
+            
+            ul.f {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: rgb(12, 200, 97);
+                position: -webkit-sticky;
+                position: sticky;
+                top: 0;
+                border-radius: 15px;
+            }
+            
+            li.f {
+                float: left;
+            }
+            
+            li.f a {
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            
+            li.f a:hover {
+                background-color: rgb(26, 116, 66);
+            }
+            
+            .button {
+                background-color: #a0a0a0;
+                opacity: 86%;
+                border: none;
+                color: white;
+                padding: 10px 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                -webkit-transition-duration: 0.4s;
+                transition-duration: 0.4s;
+                border-radius: 20px;
+                margin-left: 15px;
+                margin-top: 30px;
+                font-size: 15px;
+            }
+            
+            .button a {
+                text-decoration: none;
+                color: black;
+            }
+            
+            .big {
+                text-align: center;
+                margin-top: 30px;
+            }
+            
+            img.bb {
+                height: 450px;
+                width: 1000px;
+                padding: initial;
+                margin: 6px 0;
+            }
+            
+            .button:hover {
+                box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+            
+            .active {
+                background-color: #4CAF50;
+            }
+            
+            .header {
+                border: none;
+                font-size: 25%;
+                display: inline-block;
+                margin-left: 2%;
+                margin-right: 2%;
+                position: relative;
+                margin-bottom: 1%;
+                border-radius: 25px;
+                padding-right: 100px;
+            }
+            
+            .bara {
+                display: inline-block;
+                margin-bottom: 5%;
+            }
+            
+            .barat {
+                margin: 1%;
+            }
+            
+            .all {
+                position: initial;
+                display: block;
+                margin-bottom: -10%;
+            }
+            
+            .alls {
+                display: block;
+            }
+            
+            div.gallery:hover {
+                opacity: 75%;
+            }
+            
+            div.gallery img {
+                padding: auto;
+                margin: 15px;
+                width: 100%;
+                height: auto;
+                border-radius: 15px;
+                border-top: 5px;
+            }
+            
+            * {
+                box-sizing: border-box;
+            }
+            
+            img.bb {
+                border-radius: 15px;
+                opacity: 100%;
+                width: 400px;
+                height: 550px;
+                border-top: 5%;
+                position: relative;
+                object-fit: cover;
+                position: relative;
+            }
+            
+            .responsive {
+                padding: 0 6px;
+                float: left;
+                width: 24.99999%;
+            }
+            
+            .opacitate {
+                opacity: 100% !important;
+            }
+            
+            @media only screen and (max-width: 700px) {
+                .navb {
+                    width: 100%;
+                }
+            }
+            
+            @media scren and(max-width: 700px) {
+                .bara {
+                    width: 75%;
+                }
+            }
+            
+            @media scren and(max-width: 500px) {
+                .bara {
+                    width: 55%;
+                }
+            }
+            
+            @media scren and(max-width: 400px) {
+                .bara {
+                    width: 25%;
+                    margin: 25%;
+                }
+            }
+            
+            @media only screen and (max-width: 500px) {
+                .navb {
+                    display: block;
+                    width: 100%;
+                    float: left;
+                    padding: 5px 7px;
+                    font-size: 16px;
+                }
+            }
+            
+            @media only screen and (max-width: 700px) {
+                .navb {
+                    width: 100%;
+                    float: left;
+                }
+            }
+            
+            @media screen and (max-width: 500px) {
+                .navb a {
+                    max-width: 480px;
+                    margin: auto;
+                    float: none;
+                    display: block;
+                }
+            }
+            
+            @media only screen and(max-width: 500px) {
+                .header .headr {
+                    width: 25%;
+                    margin: 75%;
+                    padding: auto;
+                }
+            }
+            /* @media only screen and(max-width: 900px) {
+                .header .headr {
+                    width: 35%;
+                }
+            }*/
+            
+            @media only screen and(max-width: 1400px) {
+                .header {
+                    width: 75%;
+                    margin: 55%;
+                    padding: 70%;
+                }
+            }
+            
+            @media only screen and (max-width: 500px) {
+                .button {
+                    display: inline-block;
+                    width: 25%;
+                    padding: 2px 7px;
+                    margin: 1%;
+                }
+            }
+            
+            @media only screen and (max-width: 500px) {
+                div.bara {
+                    display: block;
+                    margin-left: 10%;
+                    width: 75%;
+                }
+            }
+            
+            @media only screen and (min-width: 1600px) {
+                .responsive {
+                    width: 20%;
+                    margin: 10px 0;
+                }
+                #img {
+                    height: 730px;
+                    width: 525px;
+                }
+            }
+            
+            @media only screen and (max-width: 800px) {
+                .responsive {
+                    width: 50%;
+                    margin: 10px 0;
+                }
+                #img {
+                    height: 240px;
+                    width: 183px;
+                }
+            }
+            
+            @media only screen and (max-width: 1000px) {
+                .responsive {
+                    width: 50%;
+                    margin: 10px 0;
+                }
+                #img {
+                    height: 440px;
+                    width: 340px;
+                }
+            }
+            
+            @media only screen and (max-width: 600px) {
+                .responsive {
+                    width: 50%;
+                    margin: 10px 0;
+                }
+                #img {
+                    height: 280px;
+                    width: 190px;
+                }
+            }
+            /*         @media only screen and (max-heigh: 900px) {
+                .responsive {
+                    width: 50%;
+                    margin: 10px 0;
+                }
+                #img {
+                    height: 600px;
+                    width: 420px;
+                }
+            }*/
+            
+            @media only screen and (max-width: 200px) {
+                .responsive {
+                    width: 25%;
+                    margin: 10px 0;
+                }
+                #img {
+                    height: 120px;
+                    width: 95px;
+                }
+            }
+            
+            @media only screen and (max-height: 200px) {
+                .responsive {
+                    width: 25%;
+                    margin: 10px 0;
+                }
+                #img {
+                    height: 120px;
+                    width: 95px;
+                }
+            }
+            
+            @media only screen and (max-width: 500px) {
+                .responsive .galery {
+                    width: 100%;
+                }
+            }
+            
+            .clearfix:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            
+            p {
+                text-align: justify;
+            }
+        </style>
+</head>
+
+
+
+<div id="sus" class="header" style=" background-color: white;">
+
+    <p class="headr" style=" font-size: 30px; text-align: center; padding-left: 350px; padding-right: 315px; font-family:cursive"> A gift to share<img src="porumbel.png" height="95px" style="float: center;">Is like a smile to give</p>
+
+
+</div>
+<div id="navbar" class="navb">
+
+    <ul class="f" id="navba">
+        <li class="f"><a href="index.html">Acasă</a></li>
+        <li class="f"><a href="Biblii.html">Cărți</a></li>
+        <li class="f"><a href="her.html">Femei</a></li>
+        <li class="f"><a href="him.html">Bărbați</a></li>
+        <li class="f"><a href="Felicitari.html">Felicitări</a></li>
+        <li class="f"><a href="copii.html">Copii</a></li>
+        <li class="f" style="float: right;">
+            <a class="active" href="ruletaF.html">Ruleta alegerilor</a>
+        </li>
+
+
+    </ul>
+</div>
+<div class="barat">
+    <h1 id="incurajari" class="big">~Încurajări~</h1>
+    <button style="font-size: 19px;" class="button"><a href="#sus"><b><i class="fa fa-home"></i>
+    </b></a></button>
+    <button class="button"><a href="#incurajari">Încurajări</a></button>
+    <button class="button"><a href="#meserii">Meserii</a></button>
+    <button class="button"><a href="#love">Dragoste</a></button>
+    <button class="button"><a href="#ciudate">Ciudate</a></button>
+    <button class="button"><a href="#copii">Copii</a></button>
+    <button class="button"><a href="#conotative">Conotative</a></button>
+    <button class="button"><a href="#artistic">Artistic</a></button>
+    <button class="button"><a href="#dragute">Drăguțe</a></button>
+    <button class="button"><a href="#tata"Tați</a></button>
+    <button class="button"><a href="#mama">Mame</a></button>
+    <button class="button"><a href="#Cmbp">Prieteni</a></button>
+</div>
+
+<div class="all">
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_target" href="f/belie.jpg">
+                <img id="img" class="bb" src="f/belie.jpg" alt="zi de nastere" width="1000px" height="auto">
+            </a>
+
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_target" href="f/win.jpg">
+                <img id="img" class="bb" src="f/win.jpg" alt="zi de nastere" width="100px" height="200px">
+            </a>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_target" href="f/heart.jpg">
+                <img id="img" class="bb" src="f/heart.jpg" alt="zi de nastere" width="1000px" height="auto">
+            </a>
+
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_target" href="f/hap.jpg">
+                <img id="img" class="bb" src="f/hap.jpg" alt="zi de nastere" width="1000px" height="auto">
+            </a>
+
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_target" href="f/birthday1.jpg">
+                <img id="img" class="bb" src="f/birthday1.jpg" alt="zi de nastere" width="1000px" height="auto">
+            </a>
+
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_target" href="f/birthday4.jpg">
+                <img id="img" class="bb" src="f/birthday4.jpg" alt="zi de nastere" width="1000px" height="auto">
+            </a>
+
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_target" href="f/birthday3.jpg">
+                <img id="img" class="bb" src="f/birthday3.jpg" alt="zi de nastere" width="1000px" height="auto">
+            </a>
+
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_target" href="f/birthday2.jpg">
+                <img id="img" class="bb" src="f/birthday2.jpg" alt="zi de nastere" width="1000px" height="auto">
+            </a>
+
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_target" href="f/courajjja.jpg">
+                <img id="img" class="bb" src="f/courajjja.jpg" alt="zi de nastere" width="1000px" height="auto">
+            </a>
+
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_target" href="f/couraje.jpg">
+                <img id="img" class="bb" src="f/couraje.jpg" alt="zi de nastere" width="1000px" height="auto">
+            </a>
+
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_target" href="f/curajj.jpg">
+                <img id="img" class="bb" src="f/curajj.jpg" alt="zi de nastere" width="1000px" height="auto">
+            </a>
+
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_target" href="f/curaj1.jpg">
+                <img id="img" class="bb" src="f/curaj1.jpg" alt="zi de nastere" width="1000px" height="auto">
+            </a>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_target" href="f/cccc.jpg">
+                <img id="img" class="bb" src="f/cccc.jpg" alt="zi de nastere" width="1000px" height="auto">
+            </a>
+        </div>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_target" href="f/dont'.gif">
+            <img id="img" class="bb" src="f/dont'.gif" alt="zi de nastere" width="1000px" height="auto" </a>
+    </div>
+</div>
+
+
+
+<div class="alls">
+    <div class="bara">
+        <h1 id="meserii" class="big" style="text-decoration:none; color: #000;">~Meserii~</h1>
+        <button style="font-size: 19px;" class="button"><a href="#sus"><b><i class="fa fa-home"></i>
+        <button class="button"><a href="#incurajari>Încurajări</a></button>
+        <button class="button"><a href="#meserii">Meserii</a></button>
+        <button class="button"><a href="#love">Dragoste</a></button>
+        <button class="button"><a href="#ciudate">Ciudate</a></button>
+        <button class="button"><a href="#copii">Copii</a></button>
+        <button class="button"><a href="#conotative">Conotative</a></button>
+        <button class="button"><a href="#artistic">Artistice</a></button>
+        <button class="button"><a href="#dragute">Drăguțe</a></button>
+        <button class="button"><a href="#tata"Tați</a></button>
+        <button class="button"><a href="#mama">Mame</a></button>
+        <button class="button"><a href="#Cmbp">Prieteni</a></button>
+
+    </div>
+</div>
+<div class="alll">
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_target" href="f/geogr.jpg">
+                <img id="img" class="bb" src="f/geogr.jpg" alt="zi de nastere" width="1000px" height="auto">
+            </a>
+
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_target" href="f/medicin.jpg">
+                <img id="img" class="bb" src="f/medicin.jpg" alt="zi de nastere" width="100px" height="200px">
+            </a>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_target" href="f/guitar.jpg">
+                <img id="img" class="bb" src="f/guitar.jpg" alt="zi de nastere" width="1000px" height="auto">
+            </a>
+
+        </div>
+    </div>
+
+
+</div>
+</div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_target" href="f/fan.jpg">
+            <img id="img" class="bb" src="f/fan.jpg" alt="fan" width="1000px" height="auto">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_target" href="f/balet.jpg">
+            <img id="img" class="bb" src="f/balet.jpg" alt="balet" width="1000px" height="auto">
+        </a>
+    </div>
+</div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_target" href="f/consol.jpg">
+            <img id="img" class="bb" src="f/consol.jpg" alt="consola" width="1000px" height="auto">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_target" href="f/mes.jpg">
+            <img id="img" class="bb" src="f/mes.jpg" alt="joc" width="500px" height="auto">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_target" href="f/mess.jpg">
+            <img id="img" class="bb" src="f/mess.jpg" alt="joc" width="500px" height="auto">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_target" href="f/messs.jpg">
+            <img id="img" class="bb" src="f/messs.jpg" alt="joc" width="500px" height="auto">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_target" href="f/doc.jpg">
+            <img id="img" class="bb" src="f/doc.jpg" alt="joc" width="500px" height="auto">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_target" href="f/determinatuon.jpg">
+            <img id="img" class="bb" src="f/determinatuon.jpg" alt="joc" width="500px" height="auto">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_target" href="f/poli.jpg">
+            <img id="img" class="bb" src="f/poli.jpg" alt="joc" width="500px" height="auto">
+        </a>
+
+    </div>
+</div>
+</div>
+<div class="opacitate">
+    <div class="alls">
+        <div class="bara">
+            <h1 id="love" class="big">~Dragoste~</h1>
+            <button style="font-size: 19px;" class="button"><a href="#sus"><b><i class="fa fa-home"></i>
+            </b></a></button>
+            <button class="button"><a href="#incurajari>Încurajări</a></button>
+            <button class="button"><a href="#meserii">Meserii</a></button>
+            <button class="button"><a href="#love">Dragoste</a></button>
+            <button class="button"><a href="#ciudate">Ciudate</a></button>
+            <button class="button"><a href="#copii">Copii</a></button>
+            <button class="button"><a href="#conotative">Conotative</a></button>
+            <button class="button"><a href="#artistic">Artistice</a></button>
+            <button class="button"><a href="#dragute">Drăguțe</a></button>
+            <button class="button"><a href="#tata"Tați</a></button>
+            <button class="button"><a href="#mama">Mame</a></button>
+            <button class="button"><a href="#Cmbp">Prieteni</a></button>
+
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_target" href="f/lov.jpg">
+                    <img id="img" class="bb" src="f/lov.jpg" alt="joc" width="500px" height="auto">
+                </a>
+
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_target" href="f/lovers.jpg">
+                    <img id="img" class="bb" src="f/lovers.jpg" alt="joc" width="500px" height="auto">
+                </a>
+
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_target" href="f/lovers2.jpg">
+                    <img id="img" class="bb" src="f/lovers2.jpg" alt="joc" width="500px" height="auto">
+                </a>
+
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_target" href="f/love.bal.jpg">
+                    <img id="img" class="bb" src="f/love.bal.jpg" alt="joc" width="500px" height="400px">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_target" href="f/lov.at.jpg">
+            <img id="img" class="bb" src="f/lov.at.jpg" alt="joc" width="500px" height="auto">
+        </a>
+
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_target" href="f/love.ch.jpg">
+            <img id="img" class="bb" src="f/love.ch.jpg" alt="joc" width="500px" height="auto">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_target" href="f/love.yo.jpg">
+            <img id="img" class="bb" src="f/love.yo.jpg" alt="joc" width="500px" height="auto">
+        </a>
+    </div>
+</div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_target" href="f/lov.uni.jpg">
+            <img id="img" class="bb" src="f/lov.uni.jpg" alt="joc" width="500px" height="auto">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_target" href="f/love.tom.jpg">
+            <img id="img" class="bb" src="f/love.tom.jpg" alt="joc" width="500px" height="auto">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_target" href="f/lovvv.jpg">
+            <img id="img" class="bb" src="f/lovvv.jpg" alt="joc" width="500px" height="auto">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_target" href="f/lov.moon'.jpg">
+            <img id="img" class="bb" src="f/lov.moon'.jpg" alt="joc" width="500px" height="auto">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_target" href="f/lo.comple.jpg">
+            <img id="img" class="bb" src="f/lo.comple.jpg" alt="joc" width="500px" height="auto">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_target" href="f/lo.aklf.jpg">
+            <img id="img" class="bb" src="f/lo.aklf.jpg" alt="joc" width="500px" height="auto">
+        </a>
+
+    </div>
+</div>
+
+
+
+</div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_target" href="f/poke.jpg">
+            <img id="img" class="bb" src="f/poke.jpg" alt="joc" width="500px" height="auto">
+        </a>
+
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_target" href="f/lo.dis.jpg">
+            <img id="img" class="bb" src="f/lo.dis.jpg" alt="joc" width="500px" height="auto">
+        </a>
+
+    </div>
+
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_target" href="f/big.card.jpg">
+            <img id="img" class="bb" src="f/big.card.jpg" alt="joc" width="500px" height="auto">
+        </a>
+
+    </div>
+
+    </iv>
+</div>
+
+<div class="bara" style="margin-top: 5%;">
+    <h1 id="ciudate" class="big">~Ciudate~</h1>
+    <button style="font-size: 19px;" class="button"><a href="#sus"><b><i class="fa fa-home"></i>
+    </b></a></button>
+    <button class="button"><a href="#incurajari>Încurajări</a></button>
+    <button class="button"><a href="#meserii">Meserii</a></button>
+    <button class="button"><a href="#love">Dragoste</a></button>
+    <button class="button"><a href="#ciudate">Ciudate</a></button>
+    <button class="button"><a href="#copii">Copii</a></button>
+    <button class="button"><a href="#conotative">Conotative</a></button>
+    <button class="button"><a href="#artistic">Artistice</a></button>
+    <button class="button"><a href="#dragute">Drăguțe</a></button>
+    <button class="button"><a href="#tata"Tați</a></button>
+    <button class="button"><a href="#mama">Mame</a></button>
+    <button class="button"><a href="#Cmbp">Prieteni</a></button>
+
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_target" href="f/ciudat.mona.jpg">
+            <img id="img" class="bb" src="f/ciudat.mona.jpg" alt="joc" width="500px" height="auto">
+        </a>
+
+    </div>
+
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_target" href="f/ciudat.ben.jpg">
+            <img id="img" class="bb" src="f/ciudat.ben.jpg" alt="joc" width="500px" height="auto">
+        </a>
+
+    </div>
+
+</div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_target" href="f/ciudat.jpg">
+            <img id="img" class="bb" src="f/ciudat.jpg" alt="joc" width="500px" height="auto">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_target" href="f/cciud.jpg">
+            <img id="img" class="bb" src="f/cciud.jpg" alt="joc" width="500px" height="auto">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_target" href="f/ciuciu.jpg">
+            <img id="img" class="bb" src="f/ciuciu.jpg" alt="joc" width="500px" height="auto">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_target" href="f/ciuci.jpg">
+            <img id="img" class="bb" src="f/ciuci.jpg" alt="joc" width="500px" height="auto">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_target" href="f/ciudc.jpg">
+            <img class="bb" id="img" src="f/ciudc.jpg" alt="joc" width="500px" height="auto">
+        </a>
+
+    </div>
+
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_target" href="f/not-happy.jpg">
+            <img id="img" class="bb" src="f/not-happy.jpg">
+        </a>
+
+    </div>
+
+</div>
+<div class="bara" style="margin-top: 5%;">
+    <h1 id="copii" class="big">~Copii~</h1>
+    <button style="font-size: 19px;" class="button"><a href="#sus"><b><i class="fa fa-home"></i>
+    </b></a></button>
+    <button class="button"><a href="#incurajari>Încurajări</a></button>
+    <button class="button"><a href="#meserii">Meserii</a></button>
+    <button class="button"><a href="#love">Dragoste</a></button>
+    <button class="button"><a href="#ciudate">Ciudate</a></button>
+    <button class="button"><a href="#copii">Copii</a></button>
+    <button class="button"><a href="#conotative">Conotative</a></button>
+    <button class="button"><a href="#artistic">Artistice</a></button>
+    <button class="button"><a href="#dragute">Drăguțe</a></button>
+    <button class="button"><a href="#tata"Tați</a></button>
+    <button class="button"><a href="#mama">Mame</a></button>
+    <button class="button"><a href="#Cmbp">Prieteni</a></button>
+
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/kid.jpg">
+            <img id="img" class="bb" src="f/kid.jpg" width="500px" height="auto" ">
+        </a>
+
+    </div>
+
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/kidu.jpg">
+            <img id="img" class="bb" src="f/kidu.jpg">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/ki.jpg">
+            <img id="img" class="bb" src="f/ki.jpg">
+        </a>
+
+    </div>
+</div>
+
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="https://pin.it/2kMh0BS">
+            <img id="img" class="bb" src="f/kd.img">
+        </a>
+
+    </div>
+</div>
+
+
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/kids.jpg">
+            <img id="img" class="bb" src="f/kids.jpg">
+        </a>
+
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/kk.jpg">
+            <img id="img" class="bb" src="f/kk.jpg">
+        </a>
+
+    </div>
+
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/mess.jpg">
+            <img id="img" class="bb" src="f/mess.jpg">
+        </a>
+
+    </div>
+
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/kkd.jpg">
+            <img id="img" class="bb" src="f/kkd.jpg">
+        </a>
+
+    </div>
+
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/hb.jpg">
+            <img id="img" class="bb" src="f/hb.jpg">
+        </a>
+
+    </div>
+
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/messs.jpg">
+            <img id="img" class="bb" src="f/messs.jpg">
+        </a>
+
+    </div>
+
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/gameer.jpg">
+            <img id="img" class="bb" src="f/gameer.jpg">
+        </a>
+
+    </div>
+
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/poke.jpg">
+            <img id="img" class="bb" src="f/poke.jpg">
+        </a>
+
+    </div>
+
+</div>
+<div class="bara" style="margin-top: 5%;">
+    <h1 id="conotative" class="big">~Conotative~</h1>
+    <button style="font-size: 19px;" class="button"><a href="#sus"><b><i class="fa fa-home"></i>
+    </b></a></button>
+    <button class="button"><a href="#incurajari>Încurajări</a></button>
+    <button class="button"><a href="#meserii">Meserii</a></button>
+    <button class="button"><a href="#love">Dragoste</a></button>
+    <button class="button"><a href="#ciudate">Ciudate</a></button>
+    <button class="button"><a href="#copii">Copii</a></button>
+    <button class="button"><a href="#conotative">Conotative</a></button>
+    <button class="button"><a href="#artistic">Artistice</a></button>
+    <button class="button"><a href="#dragute">Drăguțe</a></button>
+    <button class="button"><a href="#tata"Tați</a></button>
+    <button class="button"><a href="#mama">Mame</a></button>
+    <button class="button"><a href="#Cmbp">Prieteni</a></button>
+
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/conco.jpg">
+            <img id="img" class="bb" src="f/conco.jpg">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/cono.jpg">
+            <img id="img" class="bb" src="f/cono.jpg">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/conot.jpg">
+            <img id="img" class="bb" src="f/conot.jpg">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/conotct.jpg">
+            <img id="img" class="bb" src="f/conotct.jpg">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/cocnocn.jpg">
+            <img id="img" class="bb" src="f/cocnocn.jpg">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/cococo.jpg">
+            <img id="img" class="bb" src="f/cococo.jpg">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/cocon.jpg">
+            <img id="img" class="bb" src="f/cocon.jpg">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/cococoocooo.jpg">
+            <img id="img" class="bb" src="f/cococoocooo.jpg">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/old.jpg">
+            <img id="img" class="bb" src="f/old.jpg">
+        </a>
+
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/conov.jpg">
+            <img id="img" class="bb" src="f/conov.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/coc.jpg">
+            <img id="img" class="bb" src="f/coc.jpg">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/conoct.jpg">
+            <img id="img" class="bb" src="f/conoct.jpg">
+        </a>
+
+    </div>
+</div>
+<div class="bara" style="margin-top: 5%;">
+    <h1 id="artistic" class="big">~Artistic~</h1>
+    <button style="font-size: 19px;" class="button"><a href="#sus"><b><i class="fa fa-home"></i>
+    </b></a></button>
+    <button class="button"><a href="#incurajari>Încurajări</a></button>
+    <button class="button"><a href="#meserii">Meserii</a></button>
+    <button class="button"><a href="#love">Dragoste</a></button>
+    <button class="button"><a href="#ciudate">Ciudate</a></button>
+    <button class="button"><a href="#copii">Copii</a></button>
+    <button class="button"><a href="#conotative">Conotative</a></button>
+    <button class="button"><a href="#artistic">Artistice</a></button>
+    <button class="button"><a href="#dragute">Drăguțe</a></button>
+    <button class="button"><a href="#tata"Tați</a></button>
+    <button class="button"><a href="#mama">Mame</a></button>
+    <button class="button"><a href="#Cmbp">Prieteni</a></button>
+
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/art.jpg">
+            <img id="img" class="bb" src="f/art.jpg">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/artts.jpg">
+            <img id="img" class="bb" src="f/artts.jpg">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/arts.jpg">
+            <img id="img" class="bb" src="f/arts.jpg">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/artss.jpg">
+            <img id="img" class="bb" src="f/artss.jpg">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/arttssss.jpg">
+            <img id="img" class="bb" src="f/arttssss.jpg">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/artistic.jpg">
+            <img id="img" class="bb" src="f/artistic.jpg">
+        </a>
+
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/atrrt.jpg">
+            <img id="img" class="bb" src="f/atrrt.jpg">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/arta.jpg">
+            <img id="img" class="bb" src="f/arta.jpg">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/artat.jpg">
+            <img id="img" class="bb" src="f/artat.jpg">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/arting.jpg">
+            <img id="img" class="bb" src="f/arting.jpg">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/artu.jpg">
+            <img id="img" class="bb" src="f/artu.jpg">
+        </a>
+
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/atrtr.jpg">
+            <img id="img" class="bb" src="f/atrtr.jpg">
+        </a>
+
+    </div>
+</div>
+<div class="bara" style="margin-top: 5%;">
+    <h1 id="dragute" class="big">~Dragute~</h1>
+    <button style="font-size: 19px;" class="button"><a href="#sus"><b><i class="fa fa-home"></i>
+    </b></a></button>
+    <button class="button"><a href="#incurajari>Încurajări</a></button>
+    <button class="button"><a href="#meserii">Meserii</a></button>
+    <button class="button"><a href="#love">Dragoste</a></button>
+    <button class="button"><a href="#ciudate">Ciudate</a></button>
+    <button class="button"><a href="#copii">Copii</a></button>
+    <button class="button"><a href="#conotative">Conotative</a></button>
+    <button class="button"><a href="#artistic">Artistice</a></button>
+    <button class="button"><a href="#dragute">Drăguțe</a></button>
+    <button class="button"><a href="#tata"Tați</a></button>
+    <button class="button"><a href="#mama">Mame</a></button>
+    <button class="button"><a href="#Cmbp">Prieteni</a></button>
+
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/cute.jpg">
+            <img id="img" class="bb" src="f/cute.jpg">
+        </a>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/atrtr.jpg">
+            <img id="img" class="bb" src="f/atrtr.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/basic.jpg">
+            <img id="img" class="bb" src="f/basic.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/belie.jpg">
+            <img id="img" class="bb" src="f/belie.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/cuteg.jpg">
+            <img id="img" class="bb" src="f/cuteg.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/cutes.jpg">
+            <img id="img" class="bb" src="f/cutes.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/cuties.jpg">
+            <img id="img" class="bb" src="f/cuties.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/cutte.jpg">
+            <img id="img" class="bb" src="f/cutte.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/cuttes.jpg">
+            <img id="img" class="bb" src="f/cuttes.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/cuttutc.jpg">
+            <img id="img" class="bb" src="f/cuttutc.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/cccc.jpg">
+            <img id="img" class="bb" src="f/cccc.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/cute.bg.jpg">
+            <img id="img" class="bb" src="f/cute.bg.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/cuitess.jpg">
+            <img id="img" class="bb" src="f/cuitess.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/cuteppp.jpg">
+            <img id="img" class="bb" src="f/cuteppp.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/cutiep.jpg">
+            <img id="img" class="bb" src="f/cutiep.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/cutiepi.jpg">
+            <img id="img" class="bb" src="f/cutiepi.jpg">
+        </a>
+    </div>
+</div>
+
+<div class="bara" style="margin-top: 5%;">
+    <h1 id="tata" class="big">~Tati~</h1>
+    <button style="font-size: 19px;" class="button"><a href="#sus"><b><i class="fa fa-home"></i>
+    </b></a></button>
+    <button class="button"><a href="#incurajari>Încurajări</a></button>
+    <button class="button"><a href="#meserii">Meserii</a></button>
+    <button class="button"><a href="#love">Dragoste</a></button>
+    <button class="button"><a href="#ciudate">Ciudate</a></button>
+    <button class="button"><a href="#copii">Copii</a></button>
+    <button class="button"><a href="#conotative">Conotative</a></button>
+    <button class="button"><a href="#artistic">Artistice</a></button>
+    <button class="button"><a href="#dragute">Drăguțe</a></button>
+    <button class="button"><a href="#tata"Tați</a></button>
+    <button class="button"><a href="#mama">Mame</a></button>
+    <button class="button"><a href="#Cmbp">Prieteni</a></button>
+
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/father'.jpg">
+            <img id="img" class="bb" src="f/father'.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/daad.jpg">
+            <img id="img" class="bb" src="f/daad.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/dadadda.jpg">
+            <img id="img" class="bb" src="f/dadadda.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/daad'.jpg">
+            <img id="img" class="bb" src="f/daad'.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/dad.jpg">
+            <img id="img" class="bb" src="f/dad.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/daaad.jpg">
+            <img id="img" class="bb" src="f/daaad.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/dads.jpg">
+            <img id="img" class="bb" src="f/dads.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/dady.jpg">
+            <img id="img" class="bb" src="f/dady.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/daz.jpg">
+            <img id="img" class="bb" src="f/daz.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/dazz.jpg">
+            <img id="img" class="bb" src="f/dazz.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/dadz.jpg">
+            <img id="img" class="bb" src="f/dadz.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/dadzz.jpg">
+            <img id="img" class="bb" src="f/dadzz.jpg">
+        </a>
+    </div>
+</div>
+
+<div class="bara" style="margin-top: 5%;">
+    <h1 id="mama" class="big">~Mame~</h1>
+    <button style="font-size: 19px;" class="button"><a href="#sus"><b><i class="fa fa-home"></i>
+    </b></a></button>
+    <button class="button"><a href="#incurajari>Încurajări</a></button>
+    <button class="button"><a href="#meserii">Meserii</a></button>
+    <button class="button"><a href="#love">Dragoste</a></button>
+    <button class="button"><a href="#ciudate">Ciudate</a></button>
+    <button class="button"><a href="#copii">Copii</a></button>
+    <button class="button"><a href="#conotative">Conotative</a></button>
+    <button class="button"><a href="#artistic">Artistice</a></button>
+    <button class="button"><a href="#dragute">Drăguțe</a></button>
+    <button class="button"><a href="#tata"Tați</a></button>
+    <button class="button"><a href="#mama">Mame</a></button>
+    <button class="button"><a href="#Cmbp">Prieteni</a></button>
+
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/mommy.jpg">
+            <img id="img" class="bb" src="f/mommy.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/mommm.jpg">
+            <img id="img" class="bb" src="f/mommm.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/mommmmm.jpg">
+            <img id="img" class="bb" src="f/mommmmm.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/mother2.jpg">
+            <img id="img" class="bb" src="f/mother2.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/mother3.jpg">
+            <img id="img" class="bb" src="f/mother3.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/mmmmom.jpg">
+            <img id="img" class="bb" src="f/mmmmom.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/moom.jpg">
+            <img id="img" class="bb" src="f/moom.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/moms.jpg">
+            <img id="img" class="bb" src="f/moms.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/mommy3.jpg">
+            <img id="img" class="bb" src="f/mommy3.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/mmm.jpg">
+            <img id="img" class="bb" src="f/mmm.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/mom.jpg">
+            <img id="img" class="bb" src="f/mom.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/mo.jpg">
+            <img id="img" class="bb" src="f/mo.jpg">
+        </a>
+    </div>
+</div>
+<div class="bara" style="margin-top: 5%;">
+    <h1 id="Cmbp" class="big">~Prieteni~</h1>
+    <button style="font-size: 19px;" class="button"><a href="#sus"><b><i class="fa fa-home"></i>
+    </b></a></button>
+    <button class="button"><a href="#incurajari>Încurajări</a></button>
+    <button class="button"><a href="#meserii">Meserii</a></button>
+    <button class="button"><a href="#love">Dragoste</a></button>
+    <button class="button"><a href="#ciudate">Ciudate</a></button>
+    <button class="button"><a href="#copii">Copii</a></button>
+    <button class="button"><a href="#conotative">Conotative</a></button>
+    <button class="button"><a href="#artistic">Artistice</a></button>
+    <button class="button"><a href="#dragute">Drăguțe</a></button>
+    <button class="button"><a href="#tata"Tați</a></button>
+    <button class="button"><a href="#mama">Mame</a></button>
+    <button class="button"><a href="#Cmbp">Prieteni</a></button>
+
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="https://pin.it/1T2vvNq">
+            <img id="img" class="bb" src="f/bfs.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/bef.jpg">
+            <img id="img" class="bb" src="f/bef.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/bffq.jpg">
+            <img id="img" class="bb" src="f/bffq.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/bfff.jpg">
+            <img id="img" class="bb" src="f/bfff.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/bffs.jpg">
+            <img id="img" class="bb" src="f/bffs.jpg">
+        </a>
+    </div>
+</div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/bff.jpg">
+            <img id="img" class="bb" src="f/bff.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/bfscf.jpg">
+            <img id="img" class="bb" src="f/bfscf.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/bfffff.jpg">
+            <img id="img" class="bb" src="f/bfffff.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/bfw.jpg">
+            <img id="img" class="bb" src="f/bfw.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/bfb.jpg">
+            <img id="img" class="bb" src="f/bfb.jpg">
+        </a>
+    </div>
+</div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/bffffd.jpg">
+            <img id="img" class="bb" src="f/bffffd.jpg">
+        </a>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a class="lk" target="_target" href="f/bear.jpg">
+            <img id="img" class="bb" src="f/bear.jpg">
+        </a>
+    </div>
+</div>
+</body>
+
+
+</html>
